@@ -2,7 +2,6 @@
 
 [![Version](https://img.shields.io/badge/version-1.0-brightgreen.svg)](https://github.com/therayzv/rPass/releases)
 [![API](https://img.shields.io/badge/API-1.21-blue.svg)](https://www.spigotmc.org/)
-[![License](https://img.shields.io/badge/license-MIT-red.svg)](LICENSE)
 
 > Простой и мощный плагин для управления проходками (пропусками) на вашем сервере Minecraft
 
