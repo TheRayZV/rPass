@@ -1,0 +1,47 @@
+name: rPass
+version: '1'
+main: therayzv.rPass.RPass
+api-version: '1.21'
+description: 'Плагин для управления проходками на сервере'
+author: therayzv
+softdepend: [PlaceholderAPI]
+
+commands:
+  rpass:
+    description: Главная команда плагина
+    usage: /<command> [аргументы]
+    aliases: [pass]
+
+permissions:
+  rpass.admin:
+    description: Доступ ко всем командам плагина
+    default: op
+    children:
+      rpass.give: true
+      rpass.take: true
+      rpass.extendall: true
+      rpass.info: true
+      rpass.list: true
+      rpass.reload: true
+      rpass.debug: true
+  rpass.give:
+    description: Доступ к выдаче и продлению проходок
+    default: op
+  rpass.take:
+    description: Доступ к удалению проходок
+    default: op
+  rpass.extendall:
+    description: Доступ к продлению проходок всем игрокам
+    default: op
+  rpass.info:
+    description: Доступ к информации о проходках
+    default: op
+  rpass.list:
+    description: Доступ к просмотру списка проходок
+    default: op
+  rpass.reload:
+    description: Доступ к перезагрузке плагина
+    default: op
+  rpass.debug:
+    description: Доступ к отладочной информации
+    default: op
